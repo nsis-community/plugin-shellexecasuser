@@ -26,5 +26,6 @@ jobs:
           name: ShellExecAsUser
           sources: |
             Contrib/ShellExecAsUser/ShellExecAsUser.cpp
+          targets: x86-ansi,x86-unicode
           strict: false
           release: ${{ github.event_name == 'release' }}
